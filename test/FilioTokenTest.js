@@ -1,4 +1,4 @@
-import assertRevert from "zeppelin-solidity/test/helpers/assertRevert";
+import assertRevert from "openzeppelin-solidity/test/helpers/assertRevert";
 
 const FilioToken = artifacts.require("FilioToken");
 
