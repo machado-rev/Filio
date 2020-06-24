@@ -1,7 +1,7 @@
 pragma solidity ^0.6.2;
 
 import 'openzeppelin-solidity/contracts/token/ERC721/ERC721.sol';
-import 'openzeppelin-solidity/contracts/ownership/Ownable.sol';
+import 'openzeppelin-solidity/contracts/access/Ownable.sol';
 
 contract FilioToken is ERC721Token, Ownable {
   string public constant name = "FilioToken";
