@@ -1,7 +1,7 @@
-require("babel-register")({
-  ignore: /node_modules\/(?!zeppelin-solidity)/
+require("@babel/register")({
+  ignore: /node_modules\/(?!openzeppelin-solidity)/
 });
-require("babel-polyfill");
+require("@babel/polyfill");
 
 module.exports = {
   // See <http://truffleframework.com/docs/advanced/configuration>
@@ -25,4 +25,5 @@ module.exports = {
       //  evmVersion: "byzantium"
       // }
     }
-};
+}
+}

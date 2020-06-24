@@ -5,7 +5,7 @@ import 'openzeppelin-solidity/contracts/ownership/Ownable.sol';
 
 contract FilioToken is ERC721Token, Ownable {
   string public constant name = "FilioToken";
-  string public constant symbol = "GRAD";
+  string public constant symbol = "FIL";
 
   struct Filio {
     string outer;
