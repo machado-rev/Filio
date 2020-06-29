@@ -16,7 +16,7 @@ contract("Filio token", accounts => {
 
       let token = await instance.mint("#ff00dd", "#ddddff");
 
-      let tokens = await instance.tokensOf(owner);
+      let tokens = await instance.balanceOf(owner);
       let filios = await instance.getFilio(tokens[0]);
       assert.deepEqual(filios, ["#ff00dd", "#ddddff"]);
     });
